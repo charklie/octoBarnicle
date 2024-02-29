@@ -1,5 +1,5 @@
 # Teacher Tools Revisited - octoBarnicle
-A simple tool for you to take a photo and quickly send it to your email.
+A simple tool for you to take a photo from your phone and quickly view it on your computer.
 
 TODO: 
 - Make PHP upload file actually work.
