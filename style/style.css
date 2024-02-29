@@ -1,0 +1,33 @@
+body {
+  background-color: #141414;
+  color: white;
+  font-family: Verdana;
+  margin: 20px;
+}
+  
+#centermiddle {
+  margin: auto;
+  width: 640px; 
+  padding: 50px;
+  font-family: 'Lexend Deca', sans-serif; 
+  color: #2E475D;    
+}
+
+#center {
+ margin:auto 
+}
+
+.btn{
+  background-color: #0068B1; 
+  font-family: 'Lexend Deca', sans-serif;
+  text-transform: uppercase;
+  color: white;
+  padding: 5px; 
+  width: 100px;
+  border-radius: 5px;
+  
+}
+
+.btn:hover{
+  background-color: #408EC5;
+}
