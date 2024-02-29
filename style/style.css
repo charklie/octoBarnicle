@@ -1,33 +1,27 @@
 body {
-  background-color: #141414;
-  color: white;
-  font-family: Verdana;
-  margin: 20px;
+    background-color: #141414;
+    color: white;
+    font-family: Verdana;
+    margin: 20px;
 }
   
-#centermiddle {
-  margin: auto;
-  width: 640px; 
-  padding: 50px;
-  font-family: 'Lexend Deca', sans-serif; 
-  color: #2E475D;    
+.squares {
+    display: flex;
+    justify-content: center;
+}
+.icon1 {
+    padding: 10px;
+    width: 1000;
+    height: 500;
+    background: #212121;
+    top: 50%;
+    position: absolute;
+    transform: translate(0, -50%);
 }
 
-#center {
- margin:auto 
-}
-
-.btn{
-  background-color: #0068B1; 
-  font-family: 'Lexend Deca', sans-serif;
-  text-transform: uppercase;
-  color: white;
-  padding: 5px; 
-  width: 100px;
-  border-radius: 5px;
-  
-}
-
-.btn:hover{
-  background-color: #408EC5;
-}
+.icon1 {
+    border-style: ridge;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
