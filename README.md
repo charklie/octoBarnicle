@@ -6,4 +6,4 @@ TODO:
 - Bug test.
 - Change fonts and overrall re-style the page.
 - Add side buttons to navigate separate pages for photo-shooting and photo-viewing.
-- Code cleanup :(
+- Code cleanup :( (especially php file)
