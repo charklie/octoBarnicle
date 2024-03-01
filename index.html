@@ -8,17 +8,16 @@
         <link rel="shortcut icon" type="image/x-icon" href="" />
         <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
         <script src="scripts/main.js"></script>
-    </head>
-    <body>
         <link href="style/style.css" rel="stylesheet" type="text/css" media="all">
+    </head>
+
+    <body>
         <h1>OctoBarnicle</h1>
         <div class="squares">
             <div class="icon1">
                 <!--<input type="file" id="user" capture="user" accept="image/*">-->
-                <form action="upload.php" method="post" enctype="multipart/form-data">
-                      <input type="file" name="fileToUpload" id="fileToUpload">
-                      <!--<input type="submit" value="Upload Image" name="submit">-->
-                </form>
+                <input type="file" name="image_uploads" id="image_uploads" accept=".jpeg, .jpg, .png, .gif">
+                <!--<input type="submit" value="Upload Image" name="submit">-->
             </div>
         </div>
     </body>
