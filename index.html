@@ -1,27 +1,33 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
+        <meta charset="UTF-8">                                                         <!--Set character set to UTF-8-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">         <!--Set site width to width of screen-->
+        <meta http-equiv="Permissions-Policy" content="interest-cohort=()">            <!--Make sure permissions are set-->
 
-        <link href="style/style.css" rel="stylesheet" type="text/css" media="all">
+        <link href="style/style.css" rel="stylesheet" type="text/css" media="all">     <!--Import Style-->
 
-        <script src="scripts/main.js"></script>
-        <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+        <script src="scripts/main.js"></script>                                        <!--Import Sript--> 
+        <script src="https://cdn.emailjs.com/dist/email.min.js"></script>              <!--Import Email.JS library-->
 
-        <title>TTR - octoBarnicle</title>
+        <title>TTR - octoBarnicle</title>                                              <!--Set Title-->
     </head>
 
     <body>
-        <h1>OctoBarnicle</h1>
+        <h1>OctoBarnicle</h1>                                                          <!--Title-->
 
-        <div class="squares">
-            <div class="icon1">
-                <form method="post" enctype="multipart/form-data">
+        <div class="squares">                                                          <!--Div Middle-->
+            <div class="icon1">                                                        <!--Div Square-->
+                <form method="post" enctype="multipart/form-data">                     <!--Encrypt File-->
 
-                    <div>    
-                        <input type="file" name="image_uploads" id="image_uploads" accept=".jpeg, .jpg, .png, .gif" multiple>
+                    <div>                                                               
+                        <input                                                      
+                        type="file"                                                             
+                        name="image_uploads" 
+                        id="image_uploads" 
+                        accept=".jpeg, .jpg, .png, .gif" 
+                        multiple
+                        />
                     </div>
 
                     <div>
